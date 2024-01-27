@@ -6,13 +6,17 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   header {
     background-color: #1d2951;
     color: #fff;
     padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
   }
   
   nav ul {
@@ -28,10 +32,26 @@ body {
     font-size: 18px;
   }
 
+  .about-me-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 200px;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 200px; /* Adjust the top margin as needed */
+  }
+  
+  .about-me-box {
+    word-break: break-word;
+  }
+  
   @media screen and (max-width: 60px) {
     body {
       background-size: contain; 
     }
+    .about-me-box {
+        font-size: 16px; /* Adjust the font size as needed */
+      }
   }
   
   
