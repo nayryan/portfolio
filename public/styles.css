@@ -39,7 +39,7 @@ body {
     padding: 200px;
     max-width: 600px;
     text-align: center;
-    margin-top: 200px; /* Adjust the top margin as needed */
+    margin-top: 200px; 
   }
   
   .about-me-box {
@@ -51,7 +51,7 @@ body {
       background-size: contain; 
     }
     .about-me-box {
-        font-size: 16px; /* Adjust the font size as needed */
+        font-size: 16px; 
       }
   }
   
