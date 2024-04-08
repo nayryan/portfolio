@@ -11,14 +11,13 @@ header {
 }
 
 .projects-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
 }
 
 .project {
-    width: 30%;
-    margin-bottom: 30px;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
